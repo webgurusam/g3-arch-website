@@ -14,6 +14,7 @@
     border-radius: 5px;
     background-color: #FF900E;
     border: 0;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -62,4 +63,33 @@ nav li a{
 }
 .banner-image > img{
     width: 100%;
+}
+
+/* responsive media queries */
+
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        padding-left: 0;
+    }
+}
+
+/* table or medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        padding-left: 0;
+    }
 }
