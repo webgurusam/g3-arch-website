@@ -206,6 +206,21 @@ main{
     margin: 0;
 }
 
+/* sponsors section styles */
+.sponsors{
+    margin-top: 100px;
+}
+.sponsors .section-content-wrapper{
+    text-align: center;
+    margin: auto;
+}
+.sponsor-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
 /* responsive media queries */
 
 /* mobile devices */
@@ -244,6 +259,11 @@ main{
     .facts-cards{
         flex-direction: column;
     }
+    .sponsor-wrapper {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-evenly;
+    }
     
 }
 
@@ -273,5 +293,10 @@ main{
     }
     .facts-cards{
         flex-wrap: wrap;
+    }
+    .sponsor-wrapper {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-evenly;
     }
 }
